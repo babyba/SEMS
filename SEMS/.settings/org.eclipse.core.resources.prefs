@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/main/webapp/jsp=UTF-8
+encoding//src/main/webapp/jsp/main/investigation.jsp=UTF-8
+encoding//src/main/webapp/jsp/main/punishment.jsp=UTF-8
+encoding//src/main/webapp/jsp/main/school-msg.jsp=UTF-8
+encoding//src/main/webapp/jsp/prompt/fail.jsp=UTF-8
+encoding//src/main/webapp/jsp/prompt/search404.jsp=UTF-8
+encoding//src/main/webapp/jsp/prompt/searchNo.jsp=UTF-8
+encoding//src/main/webapp/jsp/teacher/TeacherEmInformation.jsp=UTF-8
+encoding//src/main/webapp/jsp/teacher/TeacherPersonalInfo.jsp=UTF-8
+encoding//src/main/webapp/password.jsp=UTF-8
+encoding/<project>=UTF-8

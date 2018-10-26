@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sems.dao.UserDao">
+	
+	<resultMap type="User" id="UserResult">
+		<result property="e_id" column="e_id"/>
+		<result property="e_pass" column="e_pass"/>
+	</resultMap>
+	
+	<select id="userLogin"  resultType="com.sems.entity.User">
+		select * from te_user where e_id = #{e_id} and e_pass = #{e_pass}
+	</select>
+	<!--  <update id="updateByUserName" parameterType="com.sems.entity.User"> 
+		update z_user set password=#{password} 
+	where username=#{username} </update> -->
+</mapper> 
